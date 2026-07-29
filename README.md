@@ -1,6 +1,16 @@
 # Better Scores, Worse Grounding
 
-Code and post-adjudication audit data for **[Better Scores, Worse Grounding: Hidden Regressions after Fine-Tuning in Dialogue Fact Verification](https://aclanthology.org/2026.sigdial-1.51/)**.
+[**Paper (SIGDIAL 2026)**](https://aclanthology.org/2026.sigdial-1.51/)
+
+> **TL;DR:** Fine-tuning improved Macro-F1 across all 18 model–evaluation-set comparisons, yet newly regressed dialogue cases showed stronger premise-side sensitivity than stable-correct cases under the Premise-Preference Score (PPS) in 17 of 18 comparisons.
+
+<p align="center">
+  <img src="assets/figure1_hidden_regression.png" width="720" alt="A hidden dialogue-grounding regression after fine-tuning">
+</p>
+
+<p align="center"><em>Aggregate gains can conceal regressions on context-dependent dialogue cases.</em></p>
+
+This repository provides the training and evaluation code, PPS implementation, and post-adjudication audit data for the paper.
 
 ## Repository
 
